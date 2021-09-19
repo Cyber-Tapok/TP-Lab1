@@ -4,4 +4,10 @@
 #else
 #define LIB_API __declspec(dllimport)
 #endif
-extern "C" LIB_API int APlusB(int a, int b);
+
+#include <string>
+
+extern "C++"
+{
+    LIB_API std::string CalcSquareFunc(int a, int b, int c);
+}
