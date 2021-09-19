@@ -10,3 +10,9 @@
 
 Функциональность динамической библиотеки:
 > Решение квадратного уравнения с заданными целочисленными коэффициентами
+
+build:
+```
+g++ -fpic -shared lib/SquareFuncLib.cpp -o SquareFuncLib.dll
+g++ main.cpp SquareFuncLib.dll
+```
