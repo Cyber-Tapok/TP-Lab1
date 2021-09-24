@@ -25,3 +25,5 @@ run:
 g++ -fpic -shared lib/SquareFuncLib.cpp -o SquareFuncLib.dll
 g++ main.cpp SquareFuncLib.dll
 ```
+
+Для запуска проекта запустить исполняемый файл **a.exe**
